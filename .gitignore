@@ -1,0 +1,29 @@
+# Credentials
+credentials/
+*.json
+profiles.yml
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
